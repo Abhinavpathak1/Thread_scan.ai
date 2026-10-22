@@ -1,0 +1,136 @@
+{
+  "sklearn_version": "1.8.0",
+  "n_train": 121,
+  "n_test": 35,
+  "n_total": 156,
+  "n_fraud": 92,
+  "n_legit": 64,
+  "feature_names": [
+    "urgency_hits",
+    "financial_hits",
+    "threat_hits",
+    "social_eng_hits",
+    "impersonation_hits",
+    "manipulation_hits",
+    "trust_hits",
+    "caps_ratio",
+    "exclamation_count",
+    "question_count",
+    "url_count",
+    "word_count",
+    "char_count",
+    "avg_word_len",
+    "sentence_count",
+    "avg_sentence_len",
+    "double_space_count",
+    "dollar_signs",
+    "number_blobs",
+    "all_caps_words",
+    "ellipsis_count",
+    "comma_count",
+    "has_url",
+    "max_url_domain_risk",
+    "avg_url_domain_risk",
+    "has_http_only",
+    "has_shortener",
+    "has_ip_domain",
+    "has_suspicious_tld",
+    "url_entropy_avg",
+    "longest_url_len",
+    "has_brand_in_domain",
+    "urgency_density",
+    "financial_density",
+    "threat_density",
+    "caps_word_ratio"
+  ],
+  "models": {
+    "m1": {
+      "file": "m1_tfidf_lr.pkl",
+      "type": "text",
+      "desc": "TF-IDF + Logistic Regression"
+    },
+    "m2": {
+      "file": "m2_chargram_svc.pkl",
+      "type": "text",
+      "desc": "Char N-Gram + SVC (calibrated)"
+    },
+    "m3": {
+      "file": "m3_random_forest.pkl",
+      "type": "hand",
+      "desc": "Random Forest (300 trees)"
+    },
+    "m4": {
+      "file": "m4_gradient_boost.pkl",
+      "type": "hand",
+      "desc": "Gradient Boosting (200 est.)"
+    },
+    "m5": {
+      "file": "m5_mlp_neural_net.pkl",
+      "type": "hand_scaled",
+      "desc": "MLP Neural Net (128\u219264\u219232)"
+    },
+    "m6": {
+      "file": "m6_naive_bayes.pkl",
+      "type": "text",
+      "desc": "Multinomial Naive Bayes"
+    }
+  },
+  "ensemble_weights": {
+    "m1": 0.25,
+    "m2": 0.2,
+    "m3": 0.18,
+    "m4": 0.17,
+    "m5": 0.12,
+    "m6": 0.08
+  },
+  "metrics": {
+    "m1": {
+      "name": "TF-IDF + Logistic Regression",
+      "acc": 0.9714285714285714,
+      "f1": 0.9767441860465116,
+      "precision": 0.9545454545454546,
+      "recall": 1.0,
+      "auc": 0.9931972789115646
+    },
+    "m2": {
+      "name": "Char N-Gram + SVC (calibrated)",
+      "acc": 0.9714285714285714,
+      "f1": 0.9767441860465116,
+      "precision": 0.9545454545454546,
+      "recall": 1.0,
+      "auc": 0.9965986394557823
+    },
+    "m3": {
+      "name": "Random Forest (300 trees)",
+      "acc": 0.9714285714285714,
+      "f1": 0.9767441860465116,
+      "precision": 0.9545454545454546,
+      "recall": 1.0,
+      "auc": 1.0
+    },
+    "m4": {
+      "name": "Gradient Boosting (200 est.)",
+      "acc": 0.9142857142857143,
+      "f1": 0.9302325581395349,
+      "precision": 0.9090909090909091,
+      "recall": 0.9523809523809523,
+      "auc": 0.9591836734693878
+    },
+    "m5": {
+      "name": "MLP Neural Network (3-layer)",
+      "acc": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auc": 1.0
+    },
+    "m6": {
+      "name": "Multinomial Naive Bayes",
+      "acc": 0.8571428571428571,
+      "f1": 0.8936170212765957,
+      "precision": 0.8076923076923077,
+      "recall": 1.0,
+      "auc": 0.9931972789115646
+    }
+  }
+}

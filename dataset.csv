@@ -1,0 +1,157 @@
+text,label,class
+"Hey, are we still on for coffee at 3pm tomorrow?",0,legitimate
+"Thanks for dinner last night, it was lovely! Let's do it again soon.",0,legitimate
+Can you pick up milk and bread on the way home?,0,legitimate
+Happy birthday! Hope you have an amazing day filled with joy.,0,legitimate
+Don't forget we have the family reunion on Sunday at noon.,0,legitimate
+I just finished reading that book you recommended — absolutely brilliant.,0,legitimate
+"Running 10 minutes late, sorry! Start without me.",0,legitimate
+The kids had a great time at the party. Thanks for organizing it.,0,legitimate
+Thinking of you during this difficult time. Let me know if you need anything.,0,legitimate
+Just checking in — how did the interview go yesterday?,0,legitimate
+Reminder: the quarterly review is scheduled for Thursday at 2pm in conference room B.,0,legitimate
+Please find attached the invoice for services rendered in October.,0,legitimate
+"Hi team, the standup meeting has been moved to 2pm today due to a conflict.",0,legitimate
+Great work on the presentation today. The client was very impressed.,0,legitimate
+The project deadline has been extended to the 20th. Please update your timelines.,0,legitimate
+Could you review the attached document before our meeting tomorrow?,0,legitimate
+Your leave request for December 24–26 has been approved.,0,legitimate
+The quarterly report is ready for review in the shared drive.,0,legitimate
+Please complete the mandatory cybersecurity training by end of month.,0,legitimate
+I've uploaded the latest design mockups to the project folder.,0,legitimate
+The budget proposal has been submitted to finance for review.,0,legitimate
+We'll need your feedback on the draft contract by Friday at the latest.,0,legitimate
+Our new office address will be effective from the 1st of next month.,0,legitimate
+The all-hands meeting has been rescheduled to next Wednesday.,0,legitimate
+Your order #78432 has shipped and will arrive by Thursday.,0,legitimate
+Your library books are due back on the 15th of this month.,0,legitimate
+Your dentist appointment is confirmed for Friday at 10am with Dr. Smith.,0,legitimate
+"Your password was successfully changed. If this wasn't you, contact support.",0,legitimate
+Your gym membership auto-renews on the 1st. No action required.,0,legitimate
+Your flight BA2291 to New York departs at 08:15 from Terminal 5.,0,legitimate
+Your subscription to Adobe Creative Cloud renews on November 1.,0,legitimate
+Your tax documents for last year are ready to download from your account.,0,legitimate
+We've updated our privacy policy. You can review the changes in your settings.,0,legitimate
+Your parcel was delivered and left in a safe place as instructed.,0,legitimate
+Your bank statement for September is now available in your online account.,0,legitimate
+Reminder: your car MOT is due next month. Book online at our website.,0,legitimate
+Your Amazon Prime membership was renewed for another year.,0,legitimate
+Your Spotify subscription payment was processed successfully.,0,legitimate
+"We confirm your hotel reservation for 2 nights, check-in December 14.",0,legitimate
+"Your electricity bill for October is £87.43, due by the 20th.",0,legitimate
+Your insurance renewal is due in 30 days. We'll send a reminder closer to the date.,0,legitimate
+Thank you for contacting us. A support agent will respond within 24 hours.,0,legitimate
+We're sorry to hear about your experience. Please reply with your order number.,0,legitimate
+Your refund of £23.50 has been processed and will appear in 3–5 business days.,0,legitimate
+We've resolved the issue you reported. Please let us know if it recurs.,0,legitimate
+The local council meeting will be held at the town hall on Monday at 7pm.,0,legitimate
+Road closure on Main Street this weekend due to water main repairs.,0,legitimate
+School will be closed on Friday for teacher training day.,0,legitimate
+"The community fundraiser raised over £5,000 for the local food bank.",0,legitimate
+Please reset your password using this link: https://accounts.google.com/reset/password,0,legitimate
+View your invoice online: https://stripe.com/invoices/in_1234567890,0,legitimate
+Track your order here: https://www.amazon.co.uk/orders/track?id=123,0,legitimate
+Join the meeting: https://zoom.us/j/123456789?pwd=abc123,0,legitimate
+Download the report: https://docs.google.com/document/d/1a2b3c,0,legitimate
+URGENT: Your bank account has been suspended! Verify immediately at http://secure-bank-login.xyz,1,fraud
+Your PayPal account is limited. Click here to restore access: http://paypal-secure.tk/verify,1,fraud
+Your Apple ID has been locked due to suspicious activity. Verify at: http://apple-id-verify.tk,1,fraud
+"Dear customer, your Netflix subscription has expired. Update payment: http://netflix-billing.ml",1,fraud
+Your Amazon account will be closed! Confirm your details at http://amazon-verification.gq/login,1,fraud
+Microsoft account alert: Unusual sign-in detected. Secure your account: http://msft-secure.xyz,1,fraud
+Your Chase bank account has been temporarily frozen. Unlock at: http://chase-verify.top/login,1,fraud
+"ALERT: Your Gmail password was changed. If not you, click here immediately: http://google-secure.tk",1,fraud
+Your Facebook account has been flagged. Restore access: http://fb-account-verify.xyz/restore,1,fraud
+IMPORTANT: Your Instagram was accessed from a new device. Verify: http://insta-secure.ml/check,1,fraud
+Your Coinbase account is at risk. Secure it NOW: http://coinbase-alert.tk/secure,1,fraud
+Wells Fargo: We detected suspicious activity. Please verify at http://wellsfargo-secure.gq,1,fraud
+Your Venmo account requires immediate verification: http://venmo-verify.xyz/confirm,1,fraud
+HSBC Security Alert: Please verify your identity at http://hsbc-online-secure.top/id-check,1,fraud
+Your Apple Pay has been disabled. Reactivate at http://applepay-secure.xyz/activate,1,fraud
+"Congratulations! You've won $1,000,000 in our international lottery. Claim your prize now!",1,fraud
+You have been selected as our lucky winner! You've won a FREE iPhone 15! Claim: http://free-prize.xyz,1,fraud
+"WINNER! You are our lucky customer #10000. Reply with your bank details to receive $5,000.",1,fraud
+"Congratulations! Your email won the UK national lottery. Send your details to claim £850,000.",1,fraud
+You've won an exclusive reward! Claim your $500 gift card before it expires: http://reward-claim.tk,1,fraud
+FINAL DRAW: You are one of 5 winners of our $2 million sweepstakes! Respond immediately.,1,fraud
+Your survey reward of $750 is ready. Complete verification at http://survey-reward.xyz/claim,1,fraud
+"Our records show you have unclaimed prize money of $4,500. Claim here: http://claim-funds.ml",1,fraud
+"IRS FINAL NOTICE: You owe $3,200. Pay now or face ARREST. Call 1-800-555-IRS immediately.",1,fraud
+"IRS ALERT: An arrest warrant has been issued. Pay $2,500 in gift cards to avoid jail.",1,fraud
+Your Social Security Number has been suspended. Call 1-888-555-9999 to reactivate immediately.,1,fraud
+SOCIAL SECURITY ADMINISTRATION: Your SSN has been involved in criminal activity. Call NOW.,1,fraud
+Department of Justice: You are under federal investigation. Contact agent immediately.,1,fraud
+"IRS: Your tax refund of $4,200 is pending. Provide your bank routing number to receive funds.",1,fraud
+Medicare Alert: Your benefits will be cancelled unless you confirm your details today.,1,fraud
+"Government grant of $9,800 available for you. No repayment! Apply: http://gov-grant.xyz",1,fraud
+"DEAR FRIEND, I am a prince from Nigeria and need your help to transfer $45 million USD.",1,fraud
+I am the late General's widow. I have $28 million to transfer and need a trusted partner.,1,fraud
+"Greetings, I am a diplomat with a consignment box worth $15.5 million needing your assistance.",1,fraud
+I have been diagnosed with cancer and wish to donate my $12 million estate to a trustworthy person.,1,fraud
+CONFIDENTIAL: I am an attorney for a deceased client who shares your surname. $6.5M is unclaimed.,1,fraud
+GOD BLESS YOU. I am contacting you regarding an inheritance of $4.2 million that needs a beneficiary.,1,fraud
+Microsoft Security Alert: Your computer has been infected with 3 viruses! Call 1-800-555-MSFT NOW.,1,fraud
+WARNING: 5 critical errors found on your PC. Download our free antivirus: http://protect-now.xyz,1,fraud
+APPLE SECURITY: Your iPhone has been hacked. Call our specialist team: 1-888-APPLE-FIX,1,fraud
+Your computer is sending INFECTED data to the internet! Call support immediately: 1-800-555-1234,1,fraud
+Google Alert: Your Chrome browser has been compromised. Fix it now: http://chrome-fix.tk,1,fraud
+Norton Security: Your license has expired. Your PC is at risk. Renew at http://norton-renew.xyz,1,fraud
+"Crypto investment opportunity! Turn $500 into $50,000 in 30 days. 100% guaranteed returns!",1,fraud
+LIMITED TIME: Invest in our Bitcoin fund and earn 40% monthly returns. Minimum deposit $200.,1,fraud
+"Work from home and earn $5,000 per week! No experience needed. Apply now for instant approval.",1,fraud
+"Make $3,000 daily from home with our proven trading system. Free trial — sign up now!",1,fraud
+EXCLUSIVE: Early access to next 1000x crypto token. Buy now before it launches publicly!,1,fraud
+Forex trading signal: guaranteed 85% win rate. Join our VIP group for just $99/month.,1,fraud
+Your credit score can be ERASED legally! Remove all bad items for $299. Call now!,1,fraud
+"Pre-approved for a $50,000 personal loan with NO credit check! Zero interest for 12 months!",1,fraud
+Debt relief program: eliminate 80% of your debt legally. Free consultation today!,1,fraud
+Send $500 in iTunes gift cards and email me the codes. This is URGENT and confidential.,1,fraud
+"I need you to purchase $1,000 in Google Play gift cards. I'll explain later. Very urgent.",1,fraud
+"Please wire $2,000 to this account immediately. I'm stuck abroad and need help. — [Boss name]",1,fraud
+CEO REQUEST: Purchase $800 in Amazon gift cards for client gifts. Keep this confidential.,1,fraud
+"Emergency: A family member has been arrested abroad. Send $3,000 bail via Western Union NOW.",1,fraud
+"I am stranded in London after being robbed. Please wire £1,500 urgently. I'll repay you.",1,fraud
+FINAL NOTICE: Unpaid toll of $2.34. Pay now to avoid $55 fine: http://pay-toll.xyz/now,1,fraud
+Your parcel is held at customs. Pay £2.99 clearance fee: http://royal-mail-customs.tk,1,fraud
+DHL: Your package could not be delivered. Pay £1.45 redelivery fee: http://dhl-redelivery.xyz,1,fraud
+FedEx Alert: Your shipment requires additional customs clearance. Pay at http://fedex-customs.ml,1,fraud
+USPS: Your parcel is on hold. Confirm your address and pay $3 fee: http://usps-track.xyz,1,fraud
+LAST CHANCE: Your account expires in 24 hours! Click immediately or lose all data: http://renew-now.gq,1,fraud
+URGENT: Your email account will be deleted in 12 hours unless you verify: http://email-verify.tk,1,fraud
+ALERT: Suspicious login from Russia detected on your account. Verify NOW or account deleted.,1,fraud
+Your account has been scheduled for permanent deletion. Cancel this action: http://cancel-delete.xyz,1,fraud
+WARNING: You have exceeded your storage limit. Your emails will be deleted. Upgrade: http://email-upgrade.ml,1,fraud
+Your subscription will auto-renew for $299 unless cancelled. Click: http://cancel-subscription.xyz,1,fraud
+I saw your profile and felt an immediate connection. I am a US Army officer stationed abroad.,1,fraud
+"Hello beautiful, I am a successful surgeon working with MSF. I would love to know you better.",1,fraud
+"I know this is sudden but I have developed strong feelings for you. I need $3,000 for medical emergency.",1,fraud
+"You qualify for a $1,400 COVID relief stimulus. Claim at http://covid-relief-fund.xyz now.",1,fraud
+FREE COVID-19 test kit — claim yours today. Provide your Medicare number: http://covid-test-free.tk,1,fraud
+"VACCINE SIDE EFFECT COMPENSATION: You may be owed $5,000. File your claim: http://vax-claim.xyz",1,fraud
+Your bank card has been used for a £450 transaction. If not you call 0800-555-FRAUD immediately.,1,fraud
+HMRC: You are owed a tax refund. Claim £289 at http://hmrc-refund.xyz before it expires.,1,fraud
+Your mobile account has been compromised. Verify at http://o2-secure.tk or service suspended.,1,fraud
+"FREE money from the government! You qualify for $8,500. Provide your SSN to claim today.",1,fraud
+"URGENT: You have 48 hours to claim your inheritance of $780,000 before it is forfeited.",1,fraud
+"Exclusive: You have been pre-selected for a $25,000 home improvement grant. Apply by midnight.",1,fraud
+Your student loan can be FORGIVEN today! Submit your details: http://loan-forgive.xyz/apply,1,fraud
+Limited time offer: 30% off your next purchase. Use code SAVE30 at checkout.,0,legitimate
+Don't miss our Black Friday sale — up to 50% off all products this weekend only.,0,legitimate
+Your account login was attempted from a new device. Was this you? Click to confirm.,0,legitimate
+Reminder: your annual subscription renews in 7 days. No action needed unless you wish to cancel.,0,legitimate
+We noticed you haven't logged in recently. Click here to keep your account active.,0,legitimate
+Your credit card ending in 4321 was charged $87.50 at Tesco. Not you? Contact us.,0,legitimate
+Please verify your email address to complete your registration: https://signup.example.com/verify,0,legitimate
+Your trial period ends in 3 days. Upgrade to keep access: https://app.example.com/upgrade,0,legitimate
+You have a new message waiting in your inbox. Log in to read it.,0,legitimate
+Join our referral program and earn $10 for every friend who signs up.,0,legitimate
+We noticed unusual activity on your account. Please verify your recent transactions immediately.,1,fraud
+You may be eligible for a $500 refund. Confirm your personal details to receive it.,1,fraud
+"Claim your exclusive membership reward of 50,000 points before they expire tonight.",1,fraud
+IMPORTANT: Your credit score has dropped 80 points. Fix it now: http://credit-fix.xyz,1,fraud
+Your debit card has been used at an ATM in another country. Confirm or block: http://card-secure.tk,1,fraud
+Congratulations! As a valued customer you've been selected for a special cash reward of $250.,1,fraud
+Act now — your loan application has been pre-approved. No credit check. Limited slots available.,1,fraud
+"Verify your PayPal account to receive your pending payment of $1,247.50.",1,fraud
+Your identity has been used to open a new credit account. Dispute this immediately.,1,fraud
+WARNING: We found your email and password on the dark web. Secure your account now.,1,fraud

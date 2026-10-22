@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════════════════════
+    THREAT·SCAN·AI — TRAINING REPORT
+  ═══════════════════════════════════════════════════════════════
+
+  Dataset
+    Total samples : 156
+    Fraud / Scam  : 92
+    Legitimate    : 64
+    Train split   : 121 (78%)
+    Test split    : 35 (22%)
+
+  Model Performance (held-out test set)
+    Model                                  Acc     F1   Prec    Rec    AUC
+    ─────────────────────────────────────────────────────────────────
+    TF-IDF + Logistic Regression         97.1%  97.7%  95.5% 100.0%  0.993
+Char N-Gram + SVC (calibrated)       97.1%  97.7%  95.5% 100.0%  0.997
+Random Forest (300 trees)            97.1%  97.7%  95.5% 100.0%  1.000
+Gradient Boosting (200 est.)         91.4%  93.0%  90.9%  95.2%  0.959
+MLP Neural Network (3-layer)        100.0% 100.0% 100.0% 100.0%  1.000
+Multinomial Naive Bayes              85.7%  89.4%  80.8% 100.0%  0.993
+
+    Average Accuracy : 94.8%
+    Average F1 Score : 95.9%
+
+  Models Saved to: models/
+    m1_tfidf_lr.pkl          TF-IDF + Logistic Regression
+    m2_chargram_svc.pkl      Char N-Gram + SVC (calibrated)
+    m3_random_forest.pkl     Random Forest (300 trees)
+    m4_gradient_boost.pkl    Gradient Boosting (200 estimators)
+    m5_mlp_neural_net.pkl    MLP Neural Network (128→64→32)
+    m6_naive_bayes.pkl       Multinomial Naive Bayes
+    feature_extractor.pkl    Handcrafted feature transformer
+    scaler.pkl               StandardScaler for neural network
+    metadata.json            Model config & performance metrics
+
+  ═══════════════════════════════════════════════════════════════
